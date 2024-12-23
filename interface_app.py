@@ -64,7 +64,6 @@ if uploaded_file is not None:
                 generated_image = (generated_image[0].numpy() + 1.0) * 127.5  # Denormalize to [0,255]
                 generated_image = generated_image.astype(np.uint8)
 
-                # Display side-by-side
                 st.subheader("📸 Results")
                 col1, col2 = st.columns(2)
                 with col1:

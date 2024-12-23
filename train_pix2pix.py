@@ -49,7 +49,7 @@ SAVE_SAMPLES_EVERY = 5  # Save sample images every X epochs
 # ----------------------------
 #    EARLY STOPPING PARAMS
 # ----------------------------
-PATIENCE = 5          # Number of epochs with no improvement after which training will be stopped
+PATIENCE = 5          # Number of epochs with no improvement after which training will be stopping
 MIN_DELTA = 0.0      # Minimum change in the monitored metric to qualify as an improvement
 
 # ----------------------------
@@ -114,7 +114,7 @@ def generator_loss(disc_generated_output, gen_output, target):
     """Combined adversarial + L1 loss."""
     gan_loss = loss_object(tf.ones_like(disc_generated_output), disc_generated_output)
     l1_loss = tf.reduce_mean(tf.abs(target - gen_output))
-    total_gen_loss = gan_loss + (100.0 * l1_loss)  # typical weighting
+    total_gen_loss = gan_loss + (100.0 * l1_loss)
     return total_gen_loss, gan_loss, l1_loss
 
 # ----------------------------

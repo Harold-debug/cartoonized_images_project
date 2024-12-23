@@ -87,7 +87,7 @@ def main():
     ensure_dir_exists(OUTPUT_FOLDER)
     
     # 2. Read all images from INPUT_FOLDER
-    image_paths = glob.glob(os.path.join(INPUT_FOLDER, "*.*"))  # e.g. jpg, png, etc.
+    image_paths = glob.glob(os.path.join(INPUT_FOLDER, "*.*"))
     image_paths.sort()
     
     # 3. Cartoonify and save
