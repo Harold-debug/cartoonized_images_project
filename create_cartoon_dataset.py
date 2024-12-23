@@ -66,7 +66,6 @@ def cartoonify_image(image):
 
     # 5. Combine segmented image with edges for a cartoon effect
     cartoon = cv2.bitwise_and(segmented, segmented, mask=edges)
-
     return cartoon
 
 def ensure_dir_exists(dir_path):
