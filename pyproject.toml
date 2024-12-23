@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cartoonized-images"
+version = "0.1.0"
+description = ""
+authors = ["Harold Geumtcheng <geumtchengh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cartoonized_images"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.10.0.84"
+scikit-learn = "^1.6.0"
+matplotlib = "^3.10.0"
+tensorflow-macos = "2.16.2"
+tensorflow-metal = "1.1.0"
+streamlit = "^1.41.1"
+pillow = "^11.0.0"
+numpy = "1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
