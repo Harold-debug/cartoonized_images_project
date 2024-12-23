@@ -114,9 +114,12 @@ If you prefer not to train the model yourself, you can download our best-perform
 
 ## Example Results
 
-![alt text](samples_pix2pix/epoch_10.png)
-![alt text](samples_pix2pix/epoch_15.png)
-![alt text](samples_pix2pix/epoch_25.png)
+![epoch_10](https://github.com/user-attachments/assets/7c727d0a-f24a-483d-bf14-3ec0dc955698)
+![epoch_15](https://github.com/user-attachments/assets/d7858c3d-8ac7-4c5b-8244-843b565dc2f1)
+![epoch_25](https://github.com/user-attachments/assets/deaaa6f6-a441-4fd8-802f-6e5c0c555c84)
+
+
+
 ## Dependencies
 
 Key libraries and frameworks used in this project:
@@ -124,3 +127,14 @@ Key libraries and frameworks used in this project:
 - **Streamlit**: Interactive web app framework.
 - **Poetry**: Dependency management.
 - **Pillow & OpenCV**: Image preprocessing tools.
+
+## Interface
+
+<img width="1470" alt="Screenshot 2024-12-23 at 12 20 22" src="https://github.com/user-attachments/assets/58c27fe7-696f-49da-81fd-a48cb409743a" />
+
+<img width="1199" alt="Screenshot 2024-12-23 at 12 20 59" src="https://github.com/user-attachments/assets/8714bea1-0c26-4157-b1f3-a30627c8c787" />
+
+<img width="1199" alt="Screenshot 2024-12-23 at 12 21 18" src="https://github.com/user-attachments/assets/ed0b81ed-e0b0-46f7-90be-90a6c70c2cde" />
+
+
+
