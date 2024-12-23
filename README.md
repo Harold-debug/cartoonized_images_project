@@ -42,7 +42,7 @@ Install Poetry if not already installed:
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
 
-```markdown
+```
 3. **Install Project Dependencies**
 
     ```bash
@@ -56,6 +56,12 @@ curl -sSL https://install.python-poetry.org | python3 -
     ```
 
 ## Usage
+
+### Downloading Real Images
+
+You can download a set of real images for training from the following link. Add the folder at your project's root:
+
+[Download Real Images](https://drive.google.com/file/d/1q9Kux4Zhifcx4xTN4A5rm-jPBEhgT6ps/view?usp=sharing)
 
 ### Preparing the Dataset
 
@@ -86,6 +92,12 @@ python train_pix2pix.py
 ```
 
 This will save the checkpoints and the best-performing model in the `checkpoints_pix2pix/` and `best_model_pix2pix/` directories.
+
+### Download the Model
+
+If you prefer not to train the model yourself, you can download our best-performing pre-trained model from the following link. Add the folder at your project's root:
+
+[Download Model](https://drive.google.com/file/d/1aasSQTYiMpfVCpqhA5EBUbWgb-FHANZm/view?usp=sharing)
 
 ### Using the Web Interface
 
