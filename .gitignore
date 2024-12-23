@@ -1,0 +1,7 @@
+# Ignore dataset and temporary files
+dataset/
+*.tmp
+*.log
+checkpoints_pix2pix/
+samples_pix2pix/
+best_model_pix2pix/
