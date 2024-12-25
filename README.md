@@ -139,5 +139,5 @@ Key libraries and frameworks used in this project:
 ### Video Demo
 
 
-[![Demo]([https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg](https://github.com/Harold-debug/cartoonized_images_project/blob/main/demo/demo-clip.mov))]([https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/video.mp4](https://github.com/Harold-debug/cartoonized_images_project/blob/main/demo/demo-clip.mov))
+[![Demo](https://github.com/Harold-debug/cartoonized_images_project/blob/main/demo/Screenshot%202024-12-23%20at%2012.21.18.png)](https://github.com/Harold-debug/cartoonized_images_project/blob/main/demo/demo-clip.mov)
 
