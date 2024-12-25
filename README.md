@@ -141,3 +141,5 @@ Key libraries and frameworks used in this project:
 
 [![Demo](https://github.com/Harold-debug/cartoonized_images_project/blob/main/demo/Screenshot%202024-12-23%20at%2012.21.18.png)](https://github.com/Harold-debug/cartoonized_images_project/blob/main/demo/demo-clip.mov)
 
+<video src="https://github.com/Harold-debug/cartoonized_images_project/blob/main/demo/demo-clip.mov" >
+
