@@ -112,7 +112,7 @@ If you prefer not to train the model yourself, you can download our best-perform
     - Click the ✨ Cartoonize! 🎨 button to generate the cartoon version.
     - View the original and cartoonized images displayed side by side.
 
-## Example Results
+## Example Results on Training
 
 ![epoch_10](https://github.com/user-attachments/assets/7c727d0a-f24a-483d-bf14-3ec0dc955698)
 ![epoch_15](https://github.com/user-attachments/assets/d7858c3d-8ac7-4c5b-8244-843b565dc2f1)
@@ -128,7 +128,7 @@ Key libraries and frameworks used in this project:
 - **Poetry**: Dependency management.
 - **Pillow & OpenCV**: Image preprocessing tools.
 
-## Interface
+## Interface and Test on new Images
 
 <img width="1470" alt="Screenshot 2024-12-23 at 12 20 22" src="https://github.com/user-attachments/assets/58c27fe7-696f-49da-81fd-a48cb409743a" />
 
